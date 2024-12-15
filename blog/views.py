@@ -4,5 +4,5 @@ from .models import Post
 
 # class for displaying posts on homepage
 class PostList(generic.ListView):
-    queryset = Post.objects.filter(author=1)
+    queryset = Post.objects.all()
     template_name = "post_list.html"
