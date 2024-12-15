@@ -10,9 +10,14 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-merzann-djangoblog-p8354yz3bl1.ws-eu117.gitpod.io','.herokuapp.com']
+# Other settings like INSTALLED_APPS, MIDDLEWARE, DATABASES, etc.
+
+ALLOWED_HOSTS = [
+    '8000-merzann-djangoblog-w8bp8bo3con.ws-eu117.gitpod.io',
+    '.herokuapp.com',
+]
 
 
 # Application definition
@@ -75,7 +80,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://8000-merzann-djangoblog-p8354yz3bl1.ws-eu117.gitpod.io",
+    "https://8000-merzann-djangoblog-w8bp8bo3con.ws-eu117.gitpod.io",
     "https://*.codeinstitute-ide.net/",
     "https://*.herokuapp.com",
 ]
