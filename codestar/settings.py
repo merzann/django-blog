@@ -15,7 +15,7 @@ DEBUG = True
 # Other settings like INSTALLED_APPS, MIDDLEWARE, DATABASES, etc.
 
 ALLOWED_HOSTS = [
-    '8000-merzann-djangoblog-w8bp8bo3con.ws-eu117.gitpod.io',
+    '8000-merzann-djangoblog-058zhf9326t.ws.codeinstitute-ide.net',
     '.herokuapp.com',
 ]
 
