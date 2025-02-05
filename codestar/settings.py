@@ -16,7 +16,7 @@ DEBUG = False
 # Other settings like INSTALLED_APPS, MIDDLEWARE, DATABASES, etc.
 
 ALLOWED_HOSTS = [
-    '8000-merzann-djangoblog-058zhf9326t.ws.codeinstitute-ide.net',
+    '127.0.0.1',
     '.herokuapp.com',
 ]
 
@@ -98,8 +98,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://8000-merzann-djangoblog-w8bp8bo3con.ws-eu117.gitpod.io",
-    "https://*.codeinstitute-ide.net/",
+    "https://localhost",
     "https://*.herokuapp.com",
 ]
 
